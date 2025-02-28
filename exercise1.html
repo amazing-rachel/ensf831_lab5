@@ -20,6 +20,7 @@ here..."/>
     textbox.addEventListener("keypress", (event) =>{
         if (event.key == "Enter"){
             label.textContent = textbox.value;
+            label.style.color = 'red'
             textbox.value = "";
         }
     });
